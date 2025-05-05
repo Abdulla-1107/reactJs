@@ -1,5 +1,6 @@
 import "./reviews.css";
-import hamza from "./avatar.jpg"; 
+import hamza from "../../images/user1.jpg"; 
+import hafiz from "../../images/user.jpg"; 
 
 const reviews = [
   {
@@ -9,7 +10,7 @@ const reviews = [
   },
   {
     name: "Hafiz Huzaifa",
-    img: hamza,
+    img: hafiz,
     text: "I’ve been purchasing smart watches of Mohid for a long time. All the products are good quality.",
   },
 ];

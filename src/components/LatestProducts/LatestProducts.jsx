@@ -1,14 +1,14 @@
 import "./products.css";
-import apple1 from "./apple1.png";
+import appleWatch from "../../images/apple1.png";
 
 
 const products = [
-  { name: "Apple Smart I", price: 255, oldPrice: 300, img: apple1 },
-  { name: "Apple Smart II", price: 255, oldPrice: 300, img: apple1 },
-  { name: "Apple Smart III", price: 255, oldPrice: 300, img: apple1 },
-  { name: "Apple Smart IV", price: 399, oldPrice: 450, img: apple1 },
-  { name: "Samsung Watch Pro", price: 255, oldPrice: 300, img: apple1 },
-  { name: "Fitbit Max 1", price: 155, oldPrice: null, img: apple1 },
+  { name: "Apple Smart I", price: 255, oldPrice: 300, img: appleWatch },
+  { name: "Apple Smart II", price: 255, oldPrice: 300, img: appleWatch },
+  { name: "Apple Smart III", price: 255, oldPrice: 300, img: appleWatch },
+  { name: "Apple Smart IV", price: 399, oldPrice: 450, img: appleWatch },
+  { name: "Samsung Watch Pro", price: 255, oldPrice: 300, img: appleWatch },
+  { name: "Fitbit Max 1", price: 155, oldPrice: null, img: appleWatch },
 ];
 
 const LatestProducts = () => {
